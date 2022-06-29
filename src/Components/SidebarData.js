@@ -12,11 +12,6 @@ export const SidebarData = [
 		link: "/about"
 	},
 	{
-		title: "Service",
-		Icon: <i className="fa fa-list"></i>,
-		link: "/service"
-	},
-	{
 		title: "Portfolio",
 		Icon: <i className="fa fa-briefcase"></i>,
 		link: "/portfolio"
