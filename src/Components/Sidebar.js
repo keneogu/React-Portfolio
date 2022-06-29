@@ -13,7 +13,7 @@ const Sidebar = () => {
 			<ul className="nav">
 				{SidebarData.map((val, key) => {
 					return <li key={key} 
-					className={window.location.pathname == val.link ? "active" : ""}
+					className={window.location.pathname === val.link ? "active" : ""}
 					onClick={() => {
 						window.location.pathname = val.link;
 					}}>
