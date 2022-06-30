@@ -8,7 +8,6 @@ const Sidebar = () => {
 		<div className="aside">
 			<div className="logo">
 				<Link to="/"><span>P</span>ortfolio</Link>
-				{/* <a href="#"><span>A</span>tlas</a> */}
 			</div>
 			<ul className="nav">
 				{SidebarData.map((val, key) => {
