@@ -18,7 +18,7 @@
 		color: var(--skin-color);
 	}
 	h3.my-profession {
-		font-size: 30px;
+		font-size: 32px;
 		margin: 15px 0;
 	}
 	.typing {
@@ -60,3 +60,21 @@
 		border-radius: 5px;
 		height: 400px;
 	}
+
+	@media (max-width:991px) {
+		.home .home-info {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+		.home .home-img {
+			display: none;
+		}
+		h3.hello span {
+			font-size: 35px;
+		}
+		.home-info p {
+			margin-bottom: 70px;
+			font-size: 25px;
+		}
+	}
+	
