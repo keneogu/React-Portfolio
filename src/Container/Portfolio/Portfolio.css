@@ -32,3 +32,18 @@
 	color: var(--text-black-700);
 	line-height: 25px;
 }
+@media (max-width:991px) {
+	.portfolio .portfolio-item {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.portfolio .portfolio-item-inner p {
+		font-size: 20px;
+	}
+}
+@media (max-width:767px) {
+	.portfolio .portfolio-item {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
