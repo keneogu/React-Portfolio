@@ -7,11 +7,12 @@ const Hamburger = () => {
 
 	return (
 		
-		<div className="ham-aside">
+		<>
 			<div className="nav-toggler" onClick={() => setOpen(!open)}>
 					<span></span>
 			</div>
-			{open && <ul className="nav-bar">
+			{open && <div className="ham-nav">
+			<ul className="nav">
 			{SidebarData.map((val, key) => {
 				return <li key={key}
 				className={window.location.pathname === val.link ? "active" : ""}
@@ -22,8 +23,9 @@ const Hamburger = () => {
 					{val.Icon}{val.title}
 				</li>
 			})}
-		  </ul>}
-		</div>
+		  </ul>
+			</div>}
+		</>
 	)
 }
 
