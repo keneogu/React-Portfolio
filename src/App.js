@@ -1,5 +1,6 @@
 import './App.css';
 import Sidebar from './Components/Sidebar';
+import Hamburger from './Components/Hamburger';
 import Home from '../src/Container/Home/Home.js';
 import About from '../src/Container/About/About';
 import {
@@ -13,6 +14,7 @@ import Contact from '../src/Container/Contact/Contact';
 function App() {
   return (
     <Router>
+			<Hamburger />
       <Sidebar />
       <Routes>
         <Route path="/" element={<Home />} />
