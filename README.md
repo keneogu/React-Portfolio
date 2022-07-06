@@ -6,6 +6,9 @@
 
 ![App screenshot](src/images/portfolio.png)
 
+## LiveLink
+[Portfolio](https://fastidious-syrniki-4010dd.netlify.app/)
+
 ## Built With
 
 - React
