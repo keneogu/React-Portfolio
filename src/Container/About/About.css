@@ -227,6 +227,11 @@
 		font-size: 18px;
 	}
 }
+@media (max-width:1199px) {
+	.about .about-content .personal-info .info-item p span {
+		display: block;
+	}
+}
 @media (max-width:767px) {
 	.about .about-content .experience,
 	.about .about-content .education,
