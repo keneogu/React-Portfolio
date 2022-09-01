@@ -4,10 +4,14 @@ import './Hamburger.css';
 
 const Hamburger = () => {
 	const [open, setOpen] = useState(false);
+	const [dark, setDark] = useState(false);
 
 	return (
 		
 		<>
+			<div className={dark ? 'body.dark' : false}>
+
+			</div>
 			<div className="nav-toggler" onClick={() => setOpen(!open)}>
 					<span></span>
 			</div>
