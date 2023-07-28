@@ -19,11 +19,11 @@ const About = () => {
 									<h3>I'm <span>Kenechukwu Oguagbaka</span> and a <span>Web Developer</span></h3>
 									<p>Hi, My name is Kenechukwu Oguagbaka, and I’m a full-stack engineer who strives 
 										to build performant web applications with a focus on user interaction and 
-										accessibility with Ruby, Ruby on Rails, React, and JavaScript.</p>
+										accessibility with Ruby, Ruby on Rails, Node, Express, React, and JavaScript.</p>
 										<br/>
-									<p>I started my development journey by teaching myself how to code on freeCodeCamp, 
+									<p>I started my development journey while in school then swtiched by teaching myself more on how to code using freeCodeCamp, 
 										Codecademy, Udemy, and YouTube courses by Brad Traversy before opting
-										for the more structured learning offered by Microverse. I gained hands-on 
+										for a more structured learning offered by Microverse. I gained hands-on 
 										experience coding under the direction of a team, collaborating on software projects, 
 										and testing systems and applications. One of my responsibilities was developing 
 										creative solutions across a variety of software platforms. Some of my accomplishments
@@ -37,10 +37,10 @@ const About = () => {
 											<p>Birthday : <span>02 Feb 1992</span></p>
 										</div>
 										<div className="info-item padd-15">
-											<p>Age : <span>30</span></p>
+											<p>Age : <span>31</span></p>
 										</div>
 										<div className="info-item padd-15">
-											<p>Website : <span>www.domain.com</span></p>
+											<p>Website : <span>https://kene-portfolio.netlify.app/.com</span></p>
 										</div>
 										<div className="info-item padd-15">
 											<p>Email : <span>ogukene@gmail.com</span></p>
@@ -60,15 +60,14 @@ const About = () => {
 									</div>
 									<div className="row">
 										<div className="buttons padd-15">
-											<Link to="/home" className="btn">Download CV</Link>
-											<Link to="/about" className="btn hire-me">Hire Me</Link>
+											<Link to="https://docs.google.com/document/d/14UVCGO_RS7ysEzlT9tuS6WFQAeyyiR9_V9HMS4Lcbns/edit" className="btn">Download CV</Link>
 										</div>
 									</div>
 								</div>
 								<div className="skills padd-15">
 									<div className="row">
 										<div className="skill-item padd-15">
-											<h5>JS</h5>
+											<h5>JAVASCRIPT</h5>
 											<div className="progress">
 												<div className="progress-in p-g-i-1"></div>
 												<div className="skill-percent">86%</div>
@@ -79,6 +78,13 @@ const About = () => {
 											<div className="progress">
 												<div className="progress-in" style={{width: "80%"}}></div>
 												<div className="skill-percent">80%</div>
+											</div>
+										</div>
+										<div className="skill-item padd-15">
+											<h5>Vue</h5>
+											<div className="progress">
+												<div className="progress-in p-g-i-4"></div>
+												<div className="skill-percent">50%</div>
 											</div>
 										</div>
 										<div className="skill-item padd-15">
@@ -100,6 +106,13 @@ const About = () => {
 											<div className="progress">
 												<div className="progress-in p-g-i-4"></div>
 												<div className="skill-percent">76%</div>
+											</div>
+										</div>
+										<div className="skill-item padd-15">
+											<h5>NODE</h5>
+											<div className="progress">
+												<div className="progress-in p-g-i-4"></div>
+												<div className="skill-percent">56%</div>
 											</div>
 										</div>
 									</div>
@@ -149,6 +162,18 @@ const About = () => {
 													<p className="timeline-text">Propose improvements to code organization to improve code quality and overall performance</p>
 													<br/>
 													<p className="timeline-text">Provide advice and tips on how to maintain motivation to maintain longevity in the program</p>
+												</div>
+												<div className="timeline-item">
+													<div className="circle-dot"></div>
+													<h3 className="timeline-date">
+														<i className="fa fa-calendar"></i> March 2018 – April 2020
+													</h3>
+													<h4 className="timeline-title">Techear/Co-owner</h4>
+													<p className="timeline-text">Plan interesting, innovative, and engaging lessons which holds the students attention and are conducive to learning</p>
+													<br/>
+													<p className="timeline-text">Review and mark student work fairly and in line with the curriculum guidance, giving appriopriate and clear feedback</p>
+													<br/>
+													<p className="timeline-text">Ultimately prepare students for their SSCE, GSCE examinations</p>
 												</div>
 												<div className="timeline-item">
 													<div className="circle-dot"></div>
